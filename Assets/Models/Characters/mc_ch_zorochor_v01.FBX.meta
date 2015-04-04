@@ -1,0 +1,633 @@
+fileFormatVersion: 2
+guid: e72ea23a53af55d438a4b23647b94d20
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: mc_ch_zorochor
+    100002: //RootNode
+    100004: Zorochor
+    100006: Zorochor Footsteps
+    100008: Zorochor Head
+    100010: Zorochor HeadNub
+    100012: Zorochor L Calf
+    100014: Zorochor L Clavicle
+    100016: Zorochor L Finger0
+    100018: Zorochor L Finger01
+    100020: Zorochor L Finger02
+    100022: Zorochor L Finger0Nub
+    100024: Zorochor L Finger1
+    100026: Zorochor L Finger11
+    100028: Zorochor L Finger12
+    100030: Zorochor L Finger1Nub
+    100032: Zorochor L Foot
+    100034: Zorochor L Forearm
+    100036: Zorochor L Hand
+    100038: Zorochor L Thigh
+    100040: Zorochor L Toe0
+    100042: Zorochor L Toe0Nub
+    100044: Zorochor L UpperArm
+    100046: Zorochor Neck
+    100048: Zorochor Pelvis
+    100050: Zorochor R Calf
+    100052: Zorochor R Clavicle
+    100054: Zorochor R Finger0
+    100056: Zorochor R Finger01
+    100058: Zorochor R Finger02
+    100060: Zorochor R Finger0Nub
+    100062: Zorochor R Finger1
+    100064: Zorochor R Finger11
+    100066: Zorochor R Finger12
+    100068: Zorochor R Finger1Nub
+    100070: Zorochor R Foot
+    100072: Zorochor R Forearm
+    100074: Zorochor R Hand
+    100076: Zorochor R Thigh
+    100078: Zorochor R Toe0
+    100080: Zorochor R Toe0Nub
+    100082: Zorochor R UpperArm
+    100084: Zorochor Spine
+    100086: Zorochor Spine1
+    100088: Zorochor Spine2
+    400000: mc_ch_zorochor
+    400002: //RootNode
+    400004: Zorochor
+    400006: Zorochor Footsteps
+    400008: Zorochor Head
+    400010: Zorochor HeadNub
+    400012: Zorochor L Calf
+    400014: Zorochor L Clavicle
+    400016: Zorochor L Finger0
+    400018: Zorochor L Finger01
+    400020: Zorochor L Finger02
+    400022: Zorochor L Finger0Nub
+    400024: Zorochor L Finger1
+    400026: Zorochor L Finger11
+    400028: Zorochor L Finger12
+    400030: Zorochor L Finger1Nub
+    400032: Zorochor L Foot
+    400034: Zorochor L Forearm
+    400036: Zorochor L Hand
+    400038: Zorochor L Thigh
+    400040: Zorochor L Toe0
+    400042: Zorochor L Toe0Nub
+    400044: Zorochor L UpperArm
+    400046: Zorochor Neck
+    400048: Zorochor Pelvis
+    400050: Zorochor R Calf
+    400052: Zorochor R Clavicle
+    400054: Zorochor R Finger0
+    400056: Zorochor R Finger01
+    400058: Zorochor R Finger02
+    400060: Zorochor R Finger0Nub
+    400062: Zorochor R Finger1
+    400064: Zorochor R Finger11
+    400066: Zorochor R Finger12
+    400068: Zorochor R Finger1Nub
+    400070: Zorochor R Foot
+    400072: Zorochor R Forearm
+    400074: Zorochor R Hand
+    400076: Zorochor R Thigh
+    400078: Zorochor R Toe0
+    400080: Zorochor R Toe0Nub
+    400082: Zorochor R UpperArm
+    400084: Zorochor Spine
+    400086: Zorochor Spine1
+    400088: Zorochor Spine2
+    4300000: mc_ch_zorochor
+    9500000: //RootNode
+    13700000: mc_ch_zorochor
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Zorochor Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor Spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor L Finger0
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor L Finger01
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor L Finger02
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor L Finger1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor L Finger11
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor L Finger12
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor R Finger0
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor R Finger01
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor R Finger02
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor R Finger1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor R Finger11
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zorochor R Finger12
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: mc_ch_zorochor_v01(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: mc_ch_zorochor
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Zorochor
+      position: {x: -8.94050167e-10, y: .899086416, z: -.0204534829}
+      rotation: {x: -.5, y: .5, z: .5, w: .5}
+      scale: {x: .99999994, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Zorochor Footsteps
+      position: {x: -0, y: 0, z: -.897052586}
+      rotation: {x: 0, y: 0, z: -.707106352, w: .707107306}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Zorochor Pelvis
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -.499999285, y: .500000715, z: .499999344, w: .500000656}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Zorochor Spine
+      position: {x: -.147896424, y: -.000136728282, z: 2.05292437e-07}
+      rotation: {x: 2.05554693e-06, y: 4.21912887e-08, z: -.0344411135, w: -.999406755}
+      scale: {x: .999999821, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: Zorochor L Thigh
+      position: {x: .147554934, y: -.0100452043, z: .0904731825}
+      rotation: {x: .0417082794, y: .998862445, z: -.00439071702, w: .0226927456}
+      scale: {x: 1, y: .999999881, z: .999999821}
+      transformModified: 1
+    - name: Zorochor L Calf
+      position: {x: -.402912557, y: 2.38418574e-09, z: 0}
+      rotation: {x: 7.8906055e-09, y: -5.2640587e-08, z: .162272304, w: .986746013}
+      scale: {x: .999999762, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: Zorochor L Foot
+      position: {x: -.361110121, y: -3.81469718e-08, z: 0}
+      rotation: {x: -.0648809671, y: .0342437364, z: -.167514965, w: .983136058}
+      scale: {x: 1.00000048, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: Zorochor L Toe0
+      position: {x: -.154606059, y: .265678376, z: -9.53674295e-09}
+      rotation: {x: -9.58663993e-09, y: -4.45904469e-08, z: -.707106769, w: .707106888}
+      scale: {x: .999999821, y: .999999881, z: .999999702}
+      transformModified: 1
+    - name: Zorochor L Toe0Nub
+      position: {x: -.214454964, y: -1.49011609e-10, z: 9.53674295e-09}
+      rotation: {x: -7.45081774e-09, y: -1.14012519e-13, z: 1, w: -4.37113954e-08}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    - name: Zorochor Spine1
+      position: {x: -.172178194, y: -8.2244871e-05, z: -2.28028513e-10}
+      rotation: {x: 1.41690073e-08, y: -5.43814309e-08, z: .0133484332, w: .999910891}
+      scale: {x: 1.00000024, y: 1, z: 1}
+      transformModified: 1
+    - name: Zorochor Spine2
+      position: {x: -.103306957, y: -.000110750196, z: -3.07263687e-10}
+      rotation: {x: -1.44688848e-08, y: -1.04946515e-07, z: .0460366197, w: .998939812}
+      scale: {x: .999999762, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: Zorochor Neck
+      position: {x: -.159006804, y: -.00879184715, z: -7.20923676e-09}
+      rotation: {x: 1.58727289e-08, y: -4.19054544e-07, z: .153582498, w: -.988135815}
+      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: Zorochor Head
+      position: {x: -.131412968, y: .0111163901, z: 1.4991528e-08}
+      rotation: {x: -1.79460464e-08, y: 1.75393495e-07, z: -.0603064746, w: -.998179913}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: Zorochor HeadNub
+      position: {x: -.299602032, y: 4.76837148e-09, z: 2.91038298e-13}
+      rotation: {x: -1.59978384e-14, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: Zorochor L Clavicle
+      position: {x: .0452006534, y: .000152816763, z: .07264103}
+      rotation: {x: .618838489, y: .134123892, z: -.768847883, w: .089009665}
+      scale: {x: 1.00000036, y: 1.00000036, z: 1.00000012}
+      transformModified: 1
+    - name: Zorochor L UpperArm
+      position: {x: -.123665862, y: 0, z: 0}
+      rotation: {x: .145984933, y: .120117068, z: -.00496181846, w: .981955111}
+      scale: {x: .99999994, y: 1, z: .999999762}
+      transformModified: 1
+    - name: Zorochor L Forearm
+      position: {x: -.230909571, y: 0, z: 1.52587887e-07}
+      rotation: {x: -4.60033878e-09, y: -4.98187269e-08, z: .0457109809, w: .998954713}
+      scale: {x: .999999821, y: 1, z: 1.00000048}
+      transformModified: 1
+    - name: Zorochor L Hand
+      position: {x: -.271856099, y: -3.81469718e-08, z: 0}
+      rotation: {x: .706825256, y: -1.50095012e-08, z: -1.6084595e-08, w: -.707388341}
+      scale: {x: 1.00000012, y: 1, z: 1.00000024}
+      transformModified: 1
+    - name: Zorochor L Finger0
+      position: {x: -.0863812268, y: -.0105191041, z: -.0444628894}
+      rotation: {x: -.71734494, y: .0403031074, z: -.0374004245, w: -.694545269}
+      scale: {x: .999999881, y: 1, z: .999999881}
+      transformModified: 1
+    - name: Zorochor L Finger01
+      position: {x: -.0541477017, y: 0, z: -1.52587887e-07}
+      rotation: {x: -.0218444709, y: -.0254970081, z: -.0152220018, w: .999320269}
+      scale: {x: .999999881, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Zorochor L Finger02
+      position: {x: -.0687360391, y: 0, z: -3.05175774e-07}
+      rotation: {x: .00247538136, y: -.0316222683, z: .0245890096, w: .999194324}
+      scale: {x: 1.00000012, y: .99999994, z: 1.00000024}
+      transformModified: 1
+    - name: Zorochor L Finger0Nub
+      position: {x: -.0804488361, y: -7.62939436e-08, z: 0}
+      rotation: {x: -3.72528985e-09, y: 6.24500385e-17, z: -1.67638063e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Zorochor L Finger1
+      position: {x: -.154534832, y: -1.52587887e-07, z: 0}
+      rotation: {x: -.121309318, y: .00972663518, z: -.0798534602, w: .989349782}
+      scale: {x: .99999994, y: .999999821, z: .999999821}
+      transformModified: 1
+    - name: Zorochor L Finger11
+      position: {x: -.071102865, y: -1.52587887e-07, z: -9.53674295e-09}
+      rotation: {x: -.121221863, y: .00458166981, z: -.037490394, w: .991906703}
+      scale: {x: 1, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: Zorochor L Finger12
+      position: {x: -.0738800019, y: 0, z: 0}
+      rotation: {x: -.121237911, y: .0041344096, z: -.0338299684, w: .99203819}
+      scale: {x: .99999994, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Zorochor L Finger1Nub
+      position: {x: -.0721817017, y: 0, z: -7.62939436e-08}
+      rotation: {x: 0, y: 0, z: 1.49011612e-08, w: 1}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Zorochor R Clavicle
+      position: {x: .0452006534, y: .000153217319, z: -.0726410672}
+      rotation: {x: -.61883831, y: -.134121791, z: -.768848121, w: .0890114233}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: Zorochor R UpperArm
+      position: {x: -.123665899, y: 0, z: -1.52587887e-07}
+      rotation: {x: .145984963, y: .120116659, z: .00496181613, w: -.981955051}
+      scale: {x: .999999702, y: 1.00000024, z: .999999821}
+      transformModified: 1
+    - name: Zorochor R Forearm
+      position: {x: -.230909497, y: 1.90734859e-08, z: -1.52587887e-07}
+      rotation: {x: 5.66957539e-08, y: -4.49614994e-08, z: .0457109474, w: .998954713}
+      scale: {x: 1.00000012, y: 1, z: 1.00000024}
+      transformModified: 1
+    - name: Zorochor R Hand
+      position: {x: -.271856099, y: 0, z: 0}
+      rotation: {x: -.706825197, y: 4.7183204e-09, z: 2.00579837e-08, w: -.707388282}
+      scale: {x: 1.00000012, y: 1.00000036, z: 1.00000048}
+      transformModified: 1
+    - name: Zorochor R Finger0
+      position: {x: -.0863812268, y: -.0105189513, z: .0444628708}
+      rotation: {x: .717344642, y: -.0403033458, z: -.0373983085, w: -.694545686}
+      scale: {x: .999999881, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: Zorochor R Finger01
+      position: {x: -.0541477203, y: 0, z: 0}
+      rotation: {x: .0218436513, y: .0254947655, z: -.0152212773, w: .999320447}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Zorochor R Finger02
+      position: {x: -.0687360018, y: 1.52587887e-07, z: 0}
+      rotation: {x: -.00247562258, y: .0316215456, z: .0245884527, w: .999194443}
+      scale: {x: .999999881, y: .999999881, z: .999999821}
+      transformModified: 1
+    - name: Zorochor R Finger0Nub
+      position: {x: -.0804488733, y: 0, z: 0}
+      rotation: {x: 1.49011603e-08, y: -2.79396755e-08, z: 1, w: 6.51925873e-08}
+      scale: {x: -.99999994, y: -1, z: -.99999994}
+      transformModified: 1
+    - name: Zorochor R Finger1
+      position: {x: -.154534608, y: 0, z: 1.90734859e-08}
+      rotation: {x: .121309102, y: -.00972668268, z: -.0798533857, w: .989349782}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Zorochor R Finger11
+      position: {x: -.0711030588, y: 0, z: 0}
+      rotation: {x: .121221937, y: -.00458192918, z: -.0374914855, w: .991906643}
+      scale: {x: .99999994, y: 1.00000036, z: 1.00000012}
+      transformModified: 1
+    - name: Zorochor R Finger12
+      position: {x: -.0738801584, y: 0, z: 3.81469718e-08}
+      rotation: {x: .121237792, y: -.00413443847, z: -.033829987, w: .99203825}
+      scale: {x: 1.00000024, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Zorochor R Finger1Nub
+      position: {x: -.0721816272, y: 0, z: 7.62939436e-08}
+      rotation: {x: -1.49011612e-08, y: -4.4408921e-16, z: 1, w: -2.98023224e-08}
+      scale: {x: -1, y: -1, z: -.99999994}
+      transformModified: 1
+    - name: Zorochor R Thigh
+      position: {x: .147554934, y: -.0100447079, z: -.0904732421}
+      rotation: {x: .0417082347, y: .998862445, z: .0043934728, w: -.02269293}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Zorochor R Calf
+      position: {x: -.402912557, y: 2.38418574e-09, z: 0}
+      rotation: {x: 3.03253103e-08, y: -3.52797329e-08, z: .162272319, w: .986746013}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Zorochor R Foot
+      position: {x: -.361109942, y: 1.90734859e-08, z: 0}
+      rotation: {x: .0648809299, y: -.0342436321, z: -.167515025, w: .983136058}
+      scale: {x: 1.00000024, y: 1.00000036, z: 1.00000024}
+      transformModified: 1
+    - name: Zorochor R Toe0
+      position: {x: -.154606044, y: .265678316, z: -9.53674295e-09}
+      rotation: {x: -7.60074936e-09, y: 2.74030398e-08, z: -.707106769, w: .707106829}
+      scale: {x: .999999881, y: 1, z: .999999702}
+      transformModified: 1
+    - name: Zorochor R Toe0Nub
+      position: {x: -.214454934, y: -1.49011609e-10, z: -9.53674295e-09}
+      rotation: {x: -5.68434189e-14, y: 7.45068718e-09, z: -7.10542693e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
