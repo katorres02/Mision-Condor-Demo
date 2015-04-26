@@ -4,22 +4,42 @@ using System.Collections;
 
 public class MainMenu : MonoBehaviour {
 
-	public Button newButton;
-	public Button quitButton;
+	public Button mission;
+	public Button exit;
 
-	// Use this for initialization
-	void Start () {
-		newButton.onClick.AddListener(() => { NewGame(); });
-		quitButton.onClick.AddListener(() => { ExitGame(); });
+	public GameObject backgroundMain;
+	public GameObject levelSelection;
+	public GameObject containerOptions;
+
+	void Awake()
+	{
+		levelSelection.SetActive (false);
+		containerOptions.SetActive (false);
+		mission.onClick.AddListener(() => { goToSelectLevels(); });
+		exit.onClick.AddListener(() => { Application.Quit(); });
 	}
 
-	void NewGame()
-	{	
+	void goToSelectLevels()
+	{
+		backgroundMain.SetActive (false);
+		levelSelection.SetActive (true);
+	}
+
+	public void backToMainFromLevelSelection()
+	{
+
+		levelSelection.SetActive (false);
+		backgroundMain.SetActive (true);
+	}
+
+	public void loadLevelOne()
+	{
 		Application.LoadLevel ("Level_01");
 	}
 
-	void ExitGame()
-	{
-		Application.Quit ();
+	public void goToOptionsFromMain(){
+		containerOptions.SetActive (true);
+		backgroundMain.SetActive (false);
 	}
+
 }

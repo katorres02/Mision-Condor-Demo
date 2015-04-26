@@ -1,0 +1,570 @@
+fileFormatVersion: 2
+guid: be011a7b1502fb84ab7807bd065279d3
+timeCreated: 1429029500
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Jhon
+    100002: Jhon Head
+    100004: Jhon HeadNub
+    100006: Jhon L Calf
+    100008: Jhon L Clavicle
+    100010: Jhon L Finger0
+    100012: Jhon L Finger01
+    100014: Jhon L Finger02
+    100016: Jhon L Finger0Nub
+    100018: Jhon L Finger1
+    100020: Jhon L Finger11
+    100022: Jhon L Finger12
+    100024: Jhon L Finger1Nub
+    100026: Jhon L Foot
+    100028: Jhon L Forearm
+    100030: Jhon L Hand
+    100032: Jhon L Thigh
+    100034: Jhon L Toe0
+    100036: Jhon L Toe0Nub
+    100038: Jhon L UpperArm
+    100040: Jhon Neck
+    100042: Jhon Pelvis
+    100044: Jhon R Calf
+    100046: Jhon R Clavicle
+    100048: Jhon R Finger0
+    100050: Jhon R Finger01
+    100052: Jhon R Finger02
+    100054: Jhon R Finger0Nub
+    100056: Jhon R Finger1
+    100058: Jhon R Finger11
+    100060: Jhon R Finger12
+    100062: Jhon R Finger1Nub
+    100064: Jhon R Foot
+    100066: Jhon R Forearm
+    100068: Jhon R Hand
+    100070: Jhon R Thigh
+    100072: Jhon R Toe0
+    100074: Jhon R Toe0Nub
+    100076: Jhon R UpperArm
+    100078: Jhon Spine
+    100080: Jhon Spine1
+    100082: Jhon Spine2
+    100084: mc_ch_jhon
+    100086: //RootNode
+    400000: Jhon
+    400002: Jhon Head
+    400004: Jhon HeadNub
+    400006: Jhon L Calf
+    400008: Jhon L Clavicle
+    400010: Jhon L Finger0
+    400012: Jhon L Finger01
+    400014: Jhon L Finger02
+    400016: Jhon L Finger0Nub
+    400018: Jhon L Finger1
+    400020: Jhon L Finger11
+    400022: Jhon L Finger12
+    400024: Jhon L Finger1Nub
+    400026: Jhon L Foot
+    400028: Jhon L Forearm
+    400030: Jhon L Hand
+    400032: Jhon L Thigh
+    400034: Jhon L Toe0
+    400036: Jhon L Toe0Nub
+    400038: Jhon L UpperArm
+    400040: Jhon Neck
+    400042: Jhon Pelvis
+    400044: Jhon R Calf
+    400046: Jhon R Clavicle
+    400048: Jhon R Finger0
+    400050: Jhon R Finger01
+    400052: Jhon R Finger02
+    400054: Jhon R Finger0Nub
+    400056: Jhon R Finger1
+    400058: Jhon R Finger11
+    400060: Jhon R Finger12
+    400062: Jhon R Finger1Nub
+    400064: Jhon R Foot
+    400066: Jhon R Forearm
+    400068: Jhon R Hand
+    400070: Jhon R Thigh
+    400072: Jhon R Toe0
+    400074: Jhon R Toe0Nub
+    400076: Jhon R UpperArm
+    400078: Jhon Spine
+    400080: Jhon Spine1
+    400082: Jhon Spine2
+    400084: mc_ch_jhon
+    400086: //RootNode
+    4300000: mc_ch_jhon
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: mc_ch_jhon
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Jhon L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon Spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon L Finger1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon L Finger11
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon L Finger12
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon R Finger1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon R Finger11
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon R Finger12
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jhon R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: ms_ch_jhon_lp_v02(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Jhon
+      position: {x: -6.60539845e-09, y: .711611748, z: -.151113912}
+      rotation: {x: -.500000358, y: .499999672, z: .499999672, w: .500000358}
+      scale: {x: .99999994, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Jhon Pelvis
+      position: {x: -.151012614, y: -2.07024229e-07, z: -9.00105324e-09}
+      rotation: {x: -.499999642, y: .500000417, z: .499999702, w: .500000358}
+      scale: {x: .999999762, y: .999999762, z: .999999762}
+      transformModified: 1
+    - name: Jhon Spine
+      position: {x: -.127169415, y: .00422402378, z: 1.64363158e-07}
+      rotation: {x: 2.05636024e-06, y: 2.98022407e-08, z: 2.98022833e-08, w: -1}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: Jhon L Thigh
+      position: {x: .127172843, y: -.00412310613, z: .142223239}
+      rotation: {x: -.0499355644, y: .997881114, z: -.00208337698, w: .041658625}
+      scale: {x: 1.00000036, y: 1.00000036, z: 1.00000036}
+      transformModified: 1
+    - name: Jhon L Calf
+      position: {x: -.281460911, y: 9.53674295e-09, z: 3.81469718e-08}
+      rotation: {x: -6.54636807e-08, y: -8.8533243e-09, z: .124530002, w: .992215872}
+      scale: {x: 1, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: Jhon L Foot
+      position: {x: -.294679761, y: -3.81469718e-08, z: -3.81469718e-08}
+      rotation: {x: -.0828864276, y: .0478877872, z: -.0708504021, w: .992883086}
+      scale: {x: .999999642, y: .999999881, z: .999999762}
+      transformModified: 1
+    - name: Jhon L Toe0
+      position: {x: -.135294333, y: .274404705, z: 5.72204577e-08}
+      rotation: {x: 3.83289063e-08, y: -2.90258964e-08, z: -.707106829, w: .707106769}
+      scale: {x: .99999994, y: .999999881, z: 1}
+      transformModified: 1
+    - name: Jhon L Toe0Nub
+      position: {x: -.116827905, y: 0, z: 0}
+      rotation: {x: -8.9051352e-14, y: -5.68434155e-14, z: 1, w: 4.37113883e-08}
+      scale: {x: -1, y: -.99999994, z: -1}
+      transformModified: 1
+    - name: Jhon R Thigh
+      position: {x: .127172843, y: -.0041223336, z: -.142223239}
+      rotation: {x: -.0499356464, y: .997881114, z: .00208597025, w: -.0416587144}
+      scale: {x: 1.00000036, y: 1.00000036, z: 1.00000048}
+      transformModified: 1
+    - name: Jhon R Calf
+      position: {x: -.281460881, y: 0, z: 3.81469718e-08}
+      rotation: {x: -1.00166638e-07, y: -3.34654748e-09, z: .124529995, w: .992215872}
+      scale: {x: .999999702, y: .999999821, z: .999999762}
+      transformModified: 1
+    - name: Jhon R Foot
+      position: {x: -.294679821, y: 1.90734859e-08, z: -1.90734859e-08}
+      rotation: {x: .0828865245, y: -.0478879251, z: -.0708504394, w: .992883146}
+      scale: {x: .99999994, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: Jhon R Toe0
+      position: {x: -.135294363, y: .274404705, z: 0}
+      rotation: {x: -4.48741133e-08, y: -1.58708477e-08, z: -.707106829, w: .707106769}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Jhon R Toe0Nub
+      position: {x: -.116827913, y: 5.96046434e-10, z: 1.90734859e-08}
+      rotation: {x: 0, y: 3.08205718e-13, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Jhon Spine1
+      position: {x: -.143921882, y: -.000120534896, z: -3.3411196e-10}
+      rotation: {x: -1.45062113e-08, y: -2.60870934e-08, z: .0163132399, w: .999866962}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Jhon Spine2
+      position: {x: -.151469573, y: -.000287742616, z: -7.94607324e-10}
+      rotation: {x: 2.97877847e-08, y: -7.63537003e-08, z: .0232239682, w: -.999730349}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Jhon Neck
+      position: {x: -.361790776, y: -6.16836551e-05, z: -1.46101228e-10}
+      rotation: {x: -1.11930074e-08, y: -1.44139472e-06, z: .340066552, w: -.940401435}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: Jhon Head
+      position: {x: -.116416849, y: .0338018015, z: 4.0450832e-08}
+      rotation: {x: -2.73289515e-08, y: 1.27474766e-06, z: -.305811971, w: -.952091932}
+      scale: {x: 1.00000024, y: .999999881, z: 1}
+      transformModified: 1
+    - name: Jhon HeadNub
+      position: {x: -.252974391, y: 0, z: -1.45519149e-13}
+      rotation: {x: 1.4210853e-14, y: -5.29395466e-23, z: -3.72528985e-09, w: 1}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Jhon L Clavicle
+      position: {x: .0867423192, y: .0502856448, z: .121569373}
+      rotation: {x: -.543899715, y: -.196929827, z: .766989708, w: -.277702421}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Jhon L UpperArm
+      position: {x: -.172836646, y: 0, z: 1.52587887e-07}
+      rotation: {x: .0395535529, y: .147939414, z: -.0435652211, w: .987244427}
+      scale: {x: 1.00000036, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: Jhon L Forearm
+      position: {x: -.241457269, y: -1.90734859e-08, z: -1.52587887e-07}
+      rotation: {x: 3.23083036e-08, y: -2.16759322e-08, z: .0666269809, w: .997777998}
+      scale: {x: .999999642, y: .99999994, z: 1.00000024}
+      transformModified: 1
+    - name: Jhon L Hand
+      position: {x: -.315934718, y: 0, z: 0}
+      rotation: {x: .706825256, y: 6.38343565e-08, z: -2.51823451e-09, w: -.707388282}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Jhon L Finger0
+      position: {x: -.0752609968, y: .00309249875, z: -.0677489489}
+      rotation: {x: -.664422631, y: .0400609672, z: -.0420692116, w: -.745095968}
+      scale: {x: .999999881, y: .999999702, z: .999999762}
+      transformModified: 1
+    - name: Jhon L Finger01
+      position: {x: -.05709856, y: 0, z: 3.05175774e-07}
+      rotation: {x: 3.85114561e-07, y: 2.8548909e-08, z: -.0375692658, w: .999294043}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Jhon L Finger02
+      position: {x: -.0773505419, y: -1.52587887e-07, z: 3.05175774e-07}
+      rotation: {x: -2.27048993e-08, y: 2.30417072e-06, z: -.0386681072, w: .999252141}
+      scale: {x: 1.00000024, y: .999999583, z: .999999702}
+      transformModified: 1
+    - name: Jhon L Finger0Nub
+      position: {x: -.0706614703, y: 1.14440915e-07, z: -3.05175774e-07}
+      rotation: {x: 3.7252903e-09, y: -2.38524478e-17, z: -6.4028427e-09, w: 1}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Jhon L Finger1
+      position: {x: -.161411583, y: 0, z: 3.81469718e-08}
+      rotation: {x: -.000397236319, y: -2.77002127e-05, z: -.0695797428, w: .997576356}
+      scale: {x: 1, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: Jhon L Finger11
+      position: {x: -.072240524, y: 0, z: 0}
+      rotation: {x: -2.00540962e-09, y: -2.48447574e-08, z: -.0326702818, w: .99946624}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: Jhon L Finger12
+      position: {x: -.072240524, y: -1.52587887e-07, z: 0}
+      rotation: {x: 9.09289799e-09, y: 6.81740673e-08, z: .0343492702, w: .999409974}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Jhon L Finger1Nub
+      position: {x: -.0592218749, y: 1.52587887e-07, z: 0}
+      rotation: {x: 0, y: 9.31322575e-10, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Jhon R Clavicle
+      position: {x: .0867425501, y: .0502864048, z: -.121568918}
+      rotation: {x: -.543898165, y: -.196927741, z: -.766990781, w: .277703971}
+      scale: {x: .999999762, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Jhon R UpperArm
+      position: {x: -.172836587, y: -1.90734859e-08, z: 1.52587887e-07}
+      rotation: {x: -.0395535044, y: -.147939205, z: -.0435655154, w: .987244487}
+      scale: {x: 1.00000048, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Jhon R Forearm
+      position: {x: -.241457254, y: 0, z: 0}
+      rotation: {x: -1.11875309e-07, y: 2.42984406e-08, z: .0666269735, w: .997777998}
+      scale: {x: .999999702, y: 1.00000012, z: .999999821}
+      transformModified: 1
+    - name: Jhon R Hand
+      position: {x: -.315934658, y: -7.62939436e-08, z: -1.52587887e-07}
+      rotation: {x: -.706825316, y: -3.57624828e-08, z: 2.61974957e-08, w: -.707388222}
+      scale: {x: 1.00000012, y: 1.00000036, z: 1.00000036}
+      transformModified: 1
+    - name: Jhon R Finger0
+      position: {x: -.0752609968, y: .00309234601, z: .0677489862}
+      rotation: {x: -.664424479, y: .0400585271, z: .0420722812, w: .745094299}
+      scale: {x: 1.00000012, y: 1.00000036, z: 1.00000012}
+      transformModified: 1
+    - name: Jhon R Finger01
+      position: {x: -.0570985787, y: 7.62939436e-08, z: 0}
+      rotation: {x: -1.68371244e-07, y: 2.5983577e-06, z: -.0375693962, w: .999294043}
+      scale: {x: .999999762, y: .999999583, z: .999999762}
+      transformModified: 1
+    - name: Jhon R Finger02
+      position: {x: -.0773505419, y: -7.62939436e-08, z: -3.05175774e-07}
+      rotation: {x: 1.9173326e-08, y: -4.50798098e-06, z: -.0386692807, w: .999252141}
+      scale: {x: 1.00000012, y: 1, z: .999999821}
+      transformModified: 1
+    - name: Jhon R Finger0Nub
+      position: {x: -.0706613883, y: 3.81469718e-08, z: 4.57763662e-07}
+      rotation: {x: -6.33174069e-17, y: 1.86264515e-09, z: 1, w: -3.3993274e-08}
+      scale: {x: -1, y: -.999999881, z: -.99999994}
+      transformModified: 1
+    - name: Jhon R Finger1
+      position: {x: -.161411583, y: 0, z: 0}
+      rotation: {x: .000397150725, y: 2.7670163e-05, z: -.0695797354, w: .997576356}
+      scale: {x: .99999994, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: Jhon R Finger11
+      position: {x: -.0722405985, y: 1.52587887e-07, z: 0}
+      rotation: {x: 6.70807978e-08, y: -6.31288977e-09, z: -.0326703116, w: .99946624}
+      scale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: Jhon R Finger12
+      position: {x: -.0722405985, y: 0, z: 7.62939436e-08}
+      rotation: {x: -1.01388572e-07, y: 1.51685633e-08, z: .0343492664, w: .999409914}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: Jhon R Finger1Nub
+      position: {x: -.0592218749, y: 1.52587887e-07, z: 0}
+      rotation: {x: 2.7939675e-09, y: 1.11758718e-08, z: 1, w: -3.72529065e-08}
+      scale: {x: -1, y: -1, z: -1.00000012}
+      transformModified: 1
+    - name: mc_ch_jhon
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
