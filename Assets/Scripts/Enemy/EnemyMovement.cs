@@ -22,10 +22,14 @@ public class EnemyMovement : MonoBehaviour {
 	{
 		if(enemyHealth.currentHealth > 0 && playerHealth.currentHealth > 0)
 		{
-		nav.SetDestination (player.position);
+			nav.SetDestination (player.position);
+			if(transform.GetComponent<Rigidbody>().freezeRotation){
+				transform.GetComponent<Rigidbody>().freezeRotation = false;
+			}
 		}
 		else
 		{
+			transform.GetComponent<Rigidbody>().freezeRotation = true;
 		    nav.enabled = false;
 		}
 	}

@@ -29,22 +29,22 @@ public class PlayerVoice : MonoBehaviour {
 		voiceHurryTimer += Time.deltaTime;
 		voiceUnderAttackTimer += Time.deltaTime;
 
-		if (playTroubleTime <= voiceTroubleTimer ) 
+		if (playTroubleTime <= voiceTroubleTimer && audio.isActiveAndEnabled ) 
 		{
 			audio.clip = thismeanstrouble;
 			audio.Play();
 			voiceTroubleTimer = 0;
 		}
-		else if(playHurryTime <= voiceHurryTimer)
+		else if(playHurryTime <= voiceHurryTimer && audio.isActiveAndEnabled)
 		{
 			audio.clip = hurry;
 			audio.Play();
 			voiceHurryTimer = 0;
 		}
-		else if(playUndeAttackTime <= voiceUnderAttackTimer )
+		else if(playUndeAttackTime <= voiceUnderAttackTimer && audio.isActiveAndEnabled)
 		{
 			audio.clip = underAttack;
-			audio.Play();
+			audio.Play();			 
 			voiceUnderAttackTimer = 0;
 		}
 	}

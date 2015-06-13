@@ -7,8 +7,11 @@ public class PauseManager : MonoBehaviour {
 
 	public GameObject hudCanvas;
 	public GameObject pauseCanvas;
-
+	public GameObject textOptions;
 	public AudioSource backgroundMusic;
+	public GameObject hudOptions;
+
+	private Options opt;
 
 	//
 	public Sprite play;
@@ -19,22 +22,29 @@ public class PauseManager : MonoBehaviour {
 	void Start () {
 		pauseButton.onClick.AddListener(() => { PauseGame(); });
 		images = gameObject.GetComponentInChildren<Image>();
+		opt = hudOptions.GetComponent<Options> ();
 	}
 	
 	// Update is called once per frame
-	void PauseGame () {
+	public void PauseGame () {
 
 		if (Time.timeScale == 1) 
 		{
 			backgroundMusic.Pause();
 			images.sprite = play;
 			Time.timeScale = Time.timeScale == 0 ? 1 : 0;
+
+			opt.LoadOptionsData();
+			pauseCanvas.SetActive(true);
+			textOptions.GetComponent<Text>().text =  ScoreManager.score.ToString();
 		}
 		else
 		{
 			backgroundMusic.Play();
 			images.sprite = pause;
 			Time.timeScale = Time.timeScale == 0 ? 1 : 0;
+			opt.SaveOptions();
+			pauseCanvas.SetActive(false);
 		}
 	}
 

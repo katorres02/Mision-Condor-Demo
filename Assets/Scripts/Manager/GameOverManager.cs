@@ -15,15 +15,13 @@ public class GameOverManager : MonoBehaviour {
 	float restartTimer;
 	
 	
-	void Awake()
-	{
+	void Awake(){
 		anim = GetComponent<Animator>();
 		RestartLevel.onClick.AddListener(() => { Restartlevel(); });
 		RestartLevel.enabled = false;
 	}
 	
-	void Restartlevel()
-	{
+	void Restartlevel(){
 		Application.LoadLevel(Application.loadedLevel);
 	}
 

@@ -7,12 +7,12 @@ PlayerSettings:
   AndroidProfiler: 0
   defaultScreenOrientation: 3
   targetDevice: 2
-  targetGlesGraphics: 1
+  targetGlesGraphics: -1
   targetIOSGraphics: -1
   targetResolution: 0
   accelerometerFrequency: 60
-  companyName: webde
-  productName: "Misi\xF3n Condor"
+  companyName: webdefamily
+  productName: Mision Condor
   cloudProjectId: 
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -75,15 +75,15 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleIdentifier: com.webde.MisionCondor
+  bundleIdentifier: com.webdefamily.MisionCondor
   bundleVersion: 1.0
   preloadedAssets: []
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   xboxOneDisableKinectGpuReservation: 0
-  productGUID: 9522fd25a4d09a246a74fd2fbea7c394
+  productGUID: ba3d156dafe5dd24b964a9a3d78b15ca
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 14
+  AndroidMinSdkVersion: 9
   AndroidPreferredInstallLocation: 1
   aotOptions: 
   apiCompatibilityLevel: 2
@@ -139,18 +139,6 @@ PlayerSettings:
     m_Icons:
     - m_Icon: {fileID: 0}
       m_Size: 128
-  - m_BuildTarget: Android
-    m_Icons:
-    - m_Icon: {fileID: 2800000, guid: 0176ff622ad88a843a8b34ceedc3edb1, type: 3}
-      m_Size: 144
-    - m_Icon: {fileID: 2800000, guid: 77f2d2d1f7c93c94ab5ec175915fab30, type: 3}
-      m_Size: 96
-    - m_Icon: {fileID: 2800000, guid: 7e12a463f6b266247a63ccd0364400a1, type: 3}
-      m_Size: 72
-    - m_Icon: {fileID: 2800000, guid: 93bd15b1b317494439492720cbbd46f2, type: 3}
-      m_Size: 48
-    - m_Icon: {fileID: 2800000, guid: 66db55983ac540540b383e98b308511f, type: 3}
-      m_Size: 36
   m_BuildTargetBatching: []
   webPlayerTemplate: APPLICATION:Default
   m_TemplateCustomTags: {}
@@ -236,7 +224,7 @@ PlayerSettings:
   psp2LiveAreaTrialPath: 
   psp2PatchChangeInfoPath: 
   psp2PatchOriginalPackage: 
-  psp2PackagePassword: 
+  psp2PackagePassword: F69AzBlax3CF3EDNhm3soLBPh71Yexui
   psp2KeystoneFile: 
   psp2DRMType: 0
   psp2StorageType: 0
@@ -271,9 +259,12 @@ PlayerSettings:
     2: CROSS_PLATFORM_INPUT
     4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
     7: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    14: MOBILE_INPUT
     15: CROSS_PLATFORM_INPUT;MOBILE_INPUT
     16: CROSS_PLATFORM_INPUT;MOBILE_INPUT
-  metroPackageName: 2014_04 - MiniShooter
+    17: MOBILE_INPUT
+    20: MOBILE_INPUT
+  metroPackageName: Mision-Condor-Demo
   metroPackageLogo: 
   metroPackageLogo140: 
   metroPackageLogo180: 
@@ -284,7 +275,7 @@ PlayerSettings:
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: 2014_04 - MiniShooter
+  metroApplicationDescription: Mision-Condor-Demo
   metroStoreTileLogo80: 
   metroStoreTileLogo: 
   metroStoreTileLogo140: 
@@ -405,7 +396,9 @@ PlayerSettings:
   iOS::ScriptingBackend: 0
   boolPropertyNames:
   - WebGL::dataCaching
+  - XboxOne::enus
   WebGL::dataCaching: 0
+  XboxOne::enus: 1
   stringPropertyNames:
   - WebGL::emscriptenArgs
   - WebGL::template

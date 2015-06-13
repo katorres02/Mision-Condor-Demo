@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnitySampleAssets.CrossPlatformInput;
 
 public class control_menu_slider : MonoBehaviour {
 	/*
@@ -95,5 +96,10 @@ public class control_menu_slider : MonoBehaviour {
 			Debug.Log("Default");
 			break;
 		}
+	}
+
+	void OnGUI(){
+		GUI.Label(new Rect(10,10, 100,20), CrossPlatformInputManager.GetAxis("Horizontal")+"  Y:"+CrossPlatformInputManager.GetAxis("Vertical"));
+		GUI.Label(new Rect(10,30, 100,20), CrossPlatformInputManager.GetAxis("HorizontalR")+"  Y:"+CrossPlatformInputManager.GetAxis("VerticalR"));
 	}
 }

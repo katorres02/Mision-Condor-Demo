@@ -19,19 +19,33 @@ public class FBcontrol : MonoBehaviour {
 	public GameObject ScoreEntryPanel;
 
 	public GameObject scoresCanvas;
+	public GameObject scoresToLoad;
+	private bool pending = true;
 	
 	// Use this for initialization
 	void Awake () {
-		FB.Init (SetInit, OnHideUnity);
+		if (!FB.IsInitialized) {
+			FB.Init (SetInit, OnHideUnity);
+		}
 	}
 	
 	private void SetInit()
 	{
 		Debug.Log ("FB Init done");
 		if (FB.IsLoggedIn) { // la variable IsLoggedIn es propia del SDK de facebook, indica si un usuario esta logueado o no
-			Debug.Log("FB Logged In");	
+			Debug.Log("FB Logged In");
+			DealWithFBMenus(true);
 		} else {
 			faceButton.gameObject.SetActive (true);
+			DealWithFBMenus(false);
+		}
+	}
+
+	void Update(){
+
+		if (Application.loadedLevelName == "menu_from_level" && pending == true) {
+			DealWithFBMenus(true);
+			pending = false;
 		}
 	}
 	
@@ -51,7 +65,7 @@ public class FBcontrol : MonoBehaviour {
 	public void FBlogin()
 	{
 		if (!FB.IsLoggedIn) {
-			FB.Login ("email"/*,publish_actions"*/, AuthCallback);
+			FB.Login ("email,publish_actions", AuthCallback);
 		} else {
 			FB.Logout();
 			UIFBIsLoggedIn.SetActive(false);
@@ -72,6 +86,7 @@ public class FBcontrol : MonoBehaviour {
 			});
 			Debug.Log ("FB login worked!");
 			DealWithFBMenus(true);
+			scoresToLoad.GetComponent<ScoresToLoad>().loadScores();
 		} else {
 			DealWithFBMenus(false);
 			Debug.Log("FB login fail! :( ");
@@ -95,7 +110,7 @@ public class FBcontrol : MonoBehaviour {
 			FB.API ( GetPictureURL("me", 128, 128),Facebook.HttpMethod.GET, DealWithProfilePicture);
 			// Get username code
 			FB.API ("/me?fields=id,first_name,last_name,age_range,birthday,devices,education,gender,email,relationship_status,work", Facebook.HttpMethod.GET, DealWithUserName);
-			
+			//falta actualozar el score al logearse
 		} else {
 			UIFBIsLoggedIn.SetActive (false);
 			UITextNameJhon.SetActive(true);
@@ -170,8 +185,9 @@ public class FBcontrol : MonoBehaviour {
 	 */
 	public void QueryScores()
 	{
-		if (FB.IsLoggedIn)
+		if (FB.IsLoggedIn) {
 			FB.API ("/app/scores?fields=score,user.limit(30)", Facebook.HttpMethod.GET, ScoresCallBack);
+		}
 		else
 			Debug.Log("No esta logueado");
 	}
@@ -234,4 +250,12 @@ public class FBcontrol : MonoBehaviour {
 		scoresCanvas.SetActive (false);
 	}
 
+	public void SetScore()
+	{
+		var score_data = new Dictionary<string,string> ();
+		score_data ["score"] = Random.Range (10, 200).ToString();
+		FB.API ("/me/scores", Facebook.HttpMethod.POST, delegate(FBResult result) {
+			Debug.Log("Score submit result: "+result.Text);
+		}, score_data);
+	}
 }

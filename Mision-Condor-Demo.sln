@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{3C308E26-4027-708F-C279-ACE05C5F4027}") = "Mision-Condor-Demo", "Assembly-CSharp-firstpass.csproj", "{2947555B-DC1B-096D-8F65-8D5B429DA522}"
+EndProject
 Project("{3C308E26-4027-708F-C279-ACE05C5F4027}") = "Mision-Condor-Demo", "Assembly-CSharp.csproj", "{34C6146A-2478-2156-842A-0435E61AEC11}"
 EndProject
 Project("{3C308E26-4027-708F-C279-ACE05C5F4027}") = "Mision-Condor-Demo", "Assembly-CSharp-Editor.csproj", "{0DD25E61-78EC-C899-AE59-C073247B0789}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2947555B-DC1B-096D-8F65-8D5B429DA522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2947555B-DC1B-096D-8F65-8D5B429DA522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2947555B-DC1B-096D-8F65-8D5B429DA522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2947555B-DC1B-096D-8F65-8D5B429DA522}.Release|Any CPU.Build.0 = Release|Any CPU
 		{34C6146A-2478-2156-842A-0435E61AEC11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{34C6146A-2478-2156-842A-0435E61AEC11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34C6146A-2478-2156-842A-0435E61AEC11}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																													GlobalSection(MonoDevelopProperties) = preSolution
+									GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

@@ -61,7 +61,7 @@ public class EnemyHealth : MonoBehaviour {
 	{
 		isDead = true;
 		
-		capsuleCollider.isTrigger = true;
+		//capsuleCollider.isTrigger = true;
 		
 		anim.SetTrigger ("Dead");
 		

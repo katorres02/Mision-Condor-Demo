@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnitySampleAssets.CrossPlatformInput;
 
 public class PlayerShooting : MonoBehaviour {
 
 	//variables para la deteccion del joystick
-	public Joystick rightJoystick;
-	//float posx;
-	//float posy;
+	//public Joystick rightJoystick;
+	float posxr;
+	float posyr;
 	//...........................
 
 
@@ -35,12 +36,16 @@ public class PlayerShooting : MonoBehaviour {
 		gunLight = GetComponent<Light> ();
 	}
 	
-	
+
 	void Update ()
 	{
+		posxr = CrossPlatformInputManager.GetAxis ("HorizontalR");
+		posyr = CrossPlatformInputManager.GetAxis ("VerticalR");
+		//Debug.Log( posxr != 0 || posyr!=0 ? "Moving" : "Stoped");
+
 		timer += Time.deltaTime;
 		
-		if(rightJoystick.IsFingerDown() && timer >= timeBetweenBullets && Time.timeScale != 0  || Input.GetButtonDown("Fire1"))
+		if((posxr != 0 || posyr!=0) && timer >= timeBetweenBullets && Time.timeScale != 0  /*|| Input.GetButtonDown("Fire1")*/)
 		{
 			Shoot ();
 		}
@@ -76,7 +81,7 @@ public class PlayerShooting : MonoBehaviour {
 		shootRay.origin = transform.position;
 		shootRay.direction = transform.forward;
 		
-		if(Physics.Raycast (shootRay, out shootHit, range, shootableMask))
+		if(Physics.Raycast (shootRay, out shootHit, range/*, shootableMask*/))
 		{
 			EnemyHealth enemyHealth = shootHit.collider.GetComponent <EnemyHealth> ();
 			if(enemyHealth != null)

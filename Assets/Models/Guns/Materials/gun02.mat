@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: gun02
-  m_Shader: {fileID: 10703, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 89abfa471dda83b47a74d679e9278caa, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
@@ -21,9 +21,24 @@ Material:
           m_Texture: {fileID: 2800000, guid: 306fffe404f68c14a99fd7c992ca028f, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Ramp
+        second:
+          m_Texture: {fileID: 2800000, guid: 4a056241e2722dc46a7262a8e7073fd9, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats: {}
     m_Colors:
       data:
         first:
           name: _Color
         second: {r: .588, g: .588, b: .588, a: 1}
+      data:
+        first:
+          name: _SColor
+        second: {r: .559039772, g: .808823526, b: .684792936, a: 1}
+      data:
+        first:
+          name: _LColor
+        second: {r: .5, g: .5, b: .5, a: 1}

@@ -34,7 +34,7 @@ public class MainMenu : MonoBehaviour {
 
 	public void loadLevelOne()
 	{
-		Application.LoadLevel ("Level_01");
+		Application.LoadLevel ("Level0");
 	}
 
 	public void goToOptionsFromMain(){

@@ -18,12 +18,12 @@ public class MainMenuPrincipal : MonoBehaviour {
 	public GameObject buttonInfo;
 	public GameObject buttonFace;
 	/* Variables Privadas */
-	private float widthScreen;		// Ancho de la pantalla
+	//private float widthScreen;		// Ancho de la pantalla
 	private float heightScreen;		// Alto de la pantalla
 	// Use this for initialization
 	void Start () {
 		Debug.Log (Screen.width +"-"+Screen.height);
-		widthScreen = Screen.width;
+		//widthScreen = Screen.width;
 		heightScreen = Screen.height;
 		//responsiveLocation ();
 	}
@@ -119,4 +119,5 @@ public class MainMenuPrincipal : MonoBehaviour {
 		rectBF.anchoredPosition = new Vector2 (rectUS.rect.width * 0.12f, rectUS.rect.height /-2f);
 		rectBF.sizeDelta = new Vector2( rectUS.rect.width *0.04f , rectUS.rect.height *0.75f);
 	}
+
 }

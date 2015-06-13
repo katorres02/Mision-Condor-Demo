@@ -9,6 +9,8 @@ using System.IO;
 
 public class Options : MonoBehaviour {
 
+	public static Options playerSettings;
+
 	public GameObject sliderMusic;
 	public GameObject sliderSound;
 	public GameObject sliderBrightness;
@@ -53,6 +55,18 @@ public class Options : MonoBehaviour {
 		myBrightness = sliderBrightness.GetComponent<Slider> ().value;
 	}
 
+	public void ShareOnFacebook(){
+		if (FB.IsLoggedIn) {
+			FB.Feed (
+				linkCaption: "I'm playing this awesome game",
+				picture: "https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-xfa1/t39.2081-0/p128x128/11057032_368565326672249_504750798_n.png",
+				linkName: "Check out this game, I just scored "+ScoreManager.score.ToString()+" points",
+				//link: "https://www.facebook.com/games/mision-condor"
+				link: "http://apps.facebook.com/"+FB.AppId+"/?challenge_brag="+(FB.IsLoggedIn ? FB.UserId : "guest")
+			);
+		}
+	}
+
 	public void vibrateContorl(){
 		myVibrate = !myVibrate;
 	}
@@ -92,6 +106,13 @@ public class Options : MonoBehaviour {
 			loaded = true;
 		}
 	}
+
+	public void backTOMain(){
+		//Application.LoadLevel ("menu_selection");
+		Time.timeScale = Time.timeScale == 0 ? 1 : 0;
+		Application.LoadLevel ("menu_from_level");
+	}
+
 
 }
 
